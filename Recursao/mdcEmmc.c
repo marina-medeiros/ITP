@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//não usa recursão :P
+
 void calc_mdc_mmc(int x, int y, int *mdc, int *mmc){
     int a, b, res;
     int x1 = x, y1 = y;

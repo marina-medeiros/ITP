@@ -1,2 +1,2 @@
 # ITP
- Repositório criado para a disciplina de ITP
+ Repositório criado para armazer as atividades feitas disciplina de Introdução às Técnicas de Programação

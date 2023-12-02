@@ -42,6 +42,8 @@ Conjunto uniao(Conjunto *a, Conjunto *b){
 
     uniao.qntValores = tamUniao;
 
+    uniao.valores = realloc((uniao.valores),sizeof(int) * (b->qntValores + a->qntValores));
+
     return uniao;
 }
 
@@ -62,6 +64,9 @@ Conjunto intersecao(Conjunto *a, Conjunto *b){
     }
 
     intersecao.qntValores = tamintersecao;
+
+    
+    intersecao.valores = realloc((intersecao.valores),sizeof(int) * (b->qntValores + a->qntValores));
 
     return intersecao;
 }
